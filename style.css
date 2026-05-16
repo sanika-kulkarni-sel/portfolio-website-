@@ -136,7 +136,6 @@ nav ul li a:hover{
     font-weight:700;
 
     background:linear-gradient(to right,#c084fc,#8b5cf6,#6366f1);
-
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 
