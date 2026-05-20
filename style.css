@@ -264,16 +264,17 @@ section{
     position:relative;
 
     display:flex;
-    justify-content:center;
-    align-items:center;
-}
 
+    align-items:center;
+
+    justify-content:center;
+}
 
 /* =========================
    BACKGROUND CIRCLE
 ========================= */
 
-.image-wrapper::before{
+/* .image-wrapper::before{
 
     content:''; 
 
@@ -293,23 +294,24 @@ section{
     z-index:-2;
 
     animation:pulse 6s infinite;
-}
+} */
 
 
 /* =========================
    GLASS CARD
 ========================= */
 
-.image-wrapper::after{
+/* .image-wrapper::after{
 
     content:''; 
 
     position:absolute;
 
-    width:500px;
-    height:500px;
+    width:450px;
 
-    border-radius:30px;
+    height:600px;
+
+    border-radius:35px;
 
     background:rgba(255,255,255,0.03);
 
@@ -318,7 +320,7 @@ section{
     backdrop-filter:blur(10px);
 
     z-index:-1;
-}
+} */
 
 
 /* =========================
@@ -327,13 +329,19 @@ section{
 
 .girl-image{
 
-    width:450px;
-    max-width:100%;
+    width:420px;
 
-    animation:float 5s ease-in-out infinite;
+    height:560px;
 
-    filter:
-    drop-shadow(0 0 30px rgba(139,92,246,0.3));
+    object-fit:cover;
+
+    border-radius:30px;
+
+    animation:float 4s ease-in-out infinite;
+
+    filter:drop-shadow(0 0 35px rgba(139,92,246,0.35));
+
+    border:1px solid rgba(255,255,255,0.08);
 }
 
 
